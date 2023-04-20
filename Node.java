@@ -1,0 +1,18 @@
+package tree;
+
+public class Node {
+    int data;
+    Node left;
+    Node right;
+
+    Node(int data) {
+        this.data = data;
+        left = null;
+        right = null;
+    }
+
+    @Override
+    public String toString() {
+        return "left: " + left + ", data: " + data + ", right: " + right;
+    }
+}
